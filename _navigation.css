@@ -1,0 +1,25 @@
+.navigation {
+  padding: 21px 25px 21px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 20px 20px 20px 20px #f1f3f5;
+  line-height: 2px;
+}
+.navigation :last-child :last-child {
+  margin-left: 24px;
+}
+.icon path {
+  stroke: rgba(165, 166, 246, 1);
+}
+.icon line {
+  stroke: rgba(165, 166, 246, 1);
+}
+.icon--1,
+.icon--2,
+.icon--3 {
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+@import "./_page1.css";
+@import "./_navigation.css";
+@import "./_page2.css";
+@import "./_page3.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Reptile";
+  src: url("./img/reptile") format("opentype");
+}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 375px;
+  margin: 0 auto;
+  color: rgba(27, 27, 80, 1);
+}
+
+//* Headings *//
+
+.heading-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28.91;
+}
+.heading-1_1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28.91;
+}
+.heading-2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 28.91px;
+}
+.heading-2_1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 28.91px;
+}
+.heading-3 {
+  font-family: "Quicksand", sans-serif;
+}
+.heading-4 {
+  font-family: "Reptile", serif;
+}
+.heading-4_1 {
+  font-family: "Reptile", serif;
+  font-weight: 500px;
+  font-size: 32px;
+  line-height: 43.14px;
+}
+
+.main-heading {
+  font-family: "Reptile";
+  font-size: 33px;
+  margin: 35px auto 45px auto;
+  text-align: center;
+}
+.secondary-heading {
+  font-family: "Quicksand";
+  line-height: 37px;
+}
+
+.section-1 p {
+  margin-bottom: 37px;
+}

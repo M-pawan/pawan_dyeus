@@ -1,0 +1,56 @@
+.page-2 {
+}
+.section-3 {
+  background: linear-gradient(
+    165.41deg,
+    #d99ec9 0%,
+    rgba(246, 240, 196, 0) 100%
+  );
+  padding: 39px 30px 42px 30px;
+}
+.section-4 {
+  background: #dce9e9;
+  padding: 39px 30px 42px 30px;
+}
+.btn {
+  border: #f66e6e;
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+  padding: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.8605px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 21px;
+}
+J .page-2-primary-heading {
+  margin: 39px 0 37px 0;
+}
+.page-2-secondary-heading {
+  margin: 37px 0 29px 0;
+}
+.page-2-primary-heading-2 {
+  margin: 39px 0 37px 0;
+}
+.page-2-secondary-heading-2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43.14px;
+  margin: 37px 0 21px 0;
+}
+.product-img {
+  width: 375px;
+  height: 562px;
+}
